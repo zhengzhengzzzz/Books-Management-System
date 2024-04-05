@@ -1,0 +1,48 @@
+{
+  "name": "book-manage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.24.0",
+    "base-64": "^1.0.0",
+    "core-js": "^3.6.5",
+    "crypto-js": "^4.2.0",
+    "echarts": "4.9.0",
+    "element-ui": "^2.15.6",
+    "gsap": "^3.12.5",
+    "socket.io-client": "^4.7.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2",
+    "webpack": "4.46.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "~4.5.19",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
